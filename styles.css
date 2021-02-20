@@ -1,27 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
 @import url("https://fonts.googleapis.com/css?family=Metal+Mania");
 
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
-
-// Font Variables
-$roboto-slab: 'Roboto Slab', serif;
-$open-sans: 'Open Sans', sans-serif;
-
-// Styles
-body {
-  font-family: $body-font;
-  font-weight: normal;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: $header-font;
-  font-weight: normal;
-}
-
-.button {
-  font-family: $roboto-slab;
-  font-weight: bold;
-}
-
 
 
 
@@ -69,6 +48,14 @@ html, body {
     border-bottom: 1px solid rgba(255, 255, 255, .3)
 }
 
+<header class="main-header">
+    <nav class="main-nav nav">
+        <ul>
+            <li><a href="store.html">Shopping Cart</a></li>
+        </ul>
+    </nav>
+    <h1 class="band-name band-name-large">Digital Items</h1>
+</header>
 .main-nav li {
     padding: 0 5%;
 }
@@ -77,7 +64,7 @@ html, body {
     background-color: rgba(255, 255, 255, .3)
 }
 
-.main-header {
+main-header {
     background-color: rgba(0, 0, 0, .6);
     background-image: url("Images/Header Background.jpg");
     background-blend-mode: multiply;
